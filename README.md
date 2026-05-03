@@ -104,9 +104,21 @@ When the action finds a hardcoded string, it posts a comment like this:
 - [@actions/core](https://github.com/actions/toolkit) -- GitHub Actions toolkit
 - [@actions/github](https://github.com/actions/toolkit) -- GitHub API client for Actions
 
-## About BeLikeNative
+---
 
-[BeLikeNative](https://belikenative.com) helps developers and teams write naturally in 100+ languages. Whether you are translating your app, writing documentation for international users, or communicating with global teammates, BeLikeNative ensures your writing sounds natural and professional.
+## BeLikeNative Developer Tools
+
+This tool is part of the **[BeLikeNative](https://belikenative.com)** ecosystem — AI-powered writing tools for non-native English speakers.
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Grammar Check](https://github.com/theluckystrike/belikenative-grammar-check) | GitHub Action | PR grammar checker with 60 rules and L1-aware insights |
+| [Writing Assistant](https://github.com/theluckystrike/bln-writing-assistant) | GitHub Action | Writing quality analysis: readability, structure, clarity |
+| [Commit Lint](https://github.com/theluckystrike/bln-commit-lint) | GitHub Action | Commit message grammar, format & clarity checker |
+| [MCP Grammar Server](https://github.com/theluckystrike/bln-mcp-grammar-server) | MCP Server | 70 local grammar rules for Claude Desktop & Cursor |
+| [Website Grader](https://github.com/theluckystrike/bln-website-grader) | Web Tool | Free website performance grader |
+
+**[BeLikeNative Chrome Extension](https://chromewebstore.google.com/detail/belikenative-ai-writing-a/gchojmpfpbpmpfgdppfdkpchikbcgabp)** — AI writing assistant for 100+ languages, 15 tones, 15 styles. 10,000+ users, 4.6★ rating.
 
 ## License
 
