@@ -1,0 +1,32 @@
+name: "BeLikeNative i18n Checker"
+description: >
+  Find hardcoded strings that should be internationalized.
+  Powered by BeLikeNative — helping developers write for a global audience.
+author: "BeLikeNative"
+
+branding:
+  icon: "globe"
+  color: "blue"
+
+inputs:
+  github-token:
+    description: "GitHub token for API access (typically secrets.GITHUB_TOKEN)"
+    required: true
+  file-patterns:
+    description: "Glob pattern for files to scan"
+    required: false
+    default: "**/*.{js,jsx,ts,tsx}"
+  min-string-length:
+    description: "Minimum string length to flag (shorter strings are skipped)"
+    required: false
+    default: "3"
+
+outputs:
+  findings-count:
+    description: "Total number of hardcoded strings found"
+  files-scanned:
+    description: "Number of files scanned"
+
+runs:
+  using: "node20"
+  main: "src/index.mjs"

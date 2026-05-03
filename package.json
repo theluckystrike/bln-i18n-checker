@@ -1,0 +1,27 @@
+{
+  "name": "bln-i18n-checker",
+  "version": "1.0.0",
+  "description": "GitHub Action: Find hardcoded strings that need i18n. Powered by BeLikeNative.",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test src/*.test.mjs",
+    "lint": "node --check src/*.mjs"
+  },
+  "keywords": [
+    "github-action",
+    "i18n",
+    "internationalization",
+    "localization",
+    "belikenative",
+    "translation",
+    "jsx",
+    "react"
+  ],
+  "author": "BeLikeNative",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}
