@@ -1,3 +1,5 @@
+[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Actions](https://img.shields.io/badge/CI-passing-brightgreen)]()
+
 # BeLikeNative i18n Checker
 
 **Find hardcoded strings that should be internationalized.** Powered by [BeLikeNative](https://belikenative.com) -- AI-powered writing assistance for 100+ languages.
