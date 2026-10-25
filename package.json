@@ -1,5 +1,6 @@
 {
   "name": "bln-i18n-checker",
+  "repository": {"type": "git", "url": "theluckystrike/bln-i18n-checker.git"},
   "version": "1.0.0",
   "description": "GitHub Action: Find hardcoded strings that need i18n. Powered by BeLikeNative.",
   "type": "module",
